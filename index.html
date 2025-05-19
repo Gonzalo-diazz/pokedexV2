@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta name="description" content="pokemones" />
     <meta name="author" content="Gonzalo Diaz" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
@@ -15,9 +15,334 @@
     <title>PokedexV2</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+         <nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item transicion">
+                <a
+                  class="nav-link bg-danger active text-light py-3 px-4 navM"
+                  href="./index.html"
+                >
+                  <i
+                    class="bi bi-robot d-block text-center transicion aNav"
+                  ></i>
+                  Pokedex</a
+                >
+              </li>
+              <li class="nav-item transicion">
+                <a
+                  class="nav-link py-3 px-4 bg-warning text-light navM"
+                  href="./pages/nosotros.html"
+                >
+                  <i
+                    class="bi bi-person-circle d-block text-centeaNavr transicion aNav"
+                  ></i>
+                  Nosotros</a
+                >
+              </li>
+
+              <li class="nav-item transicion">
+                <a
+                  class="nav-link py-3 px-4 bg-success text-light navM"
+                  href="./pages/error404.html"
+                >
+                  <i
+                    class="bi bi-play-circle-fill d-block text-center transicion aNav"
+                  ></i
+                  >Animacion</a
+                >
+              </li>
+              <li class="nav-item transicion">
+                <a
+                  class="nav-link py-3 px-4 bg-primary text-light navM"
+                  href="./pages/contacto.htmlgit "
+                >
+                  <i
+                    class="bi bi-telephone-inbound-fill d-block text-center transicion aNav"
+                  ></i
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+     <main class="container">
+      <h1 class="my-2">Pokedex</h1>
+      <form class="ms-2">
+        <div class="row p-1">
+          <div class="col-8 col-md-4 col-lg-4 bg-secondary pb-3">
+            <label for="select" class="form-label text-light"
+              >Ordenar por:</label
+            >
+            <select id="select" class="form-select">
+              <option value="">Número inferior</option>
+              <option value="">Número superior</option>
+              <option value="">A-Z</option>
+              <option value="">Z-A</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <section>
+        <div class="row row-gap-3 my-3">
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/detallepoke.html" class="text-decoration-none">
+                <img
+                  src="./img/poke10.png"
+                  class="card-img-top"
+                  alt="Pikachu"
+                />
+                <div class="card-body bg-danger rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#025</h5>
+                  <h4 class="card-text text-center text-light">Pikachu</h4>
+                  <p class="card-text text-center text-light">
+                    Tipo: Eléctrico
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke11.png"
+                  class="card-img-top"
+                  alt="Nidoking"
+                />
+                <div class="card-body bg-warning rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#034</h5>
+                  <h4 class="card-text text-center text-light">Nidoking</h4>
+                  <p class="card-text text-center text-light">
+                    Tipo: Veneno / Tierra
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke12.png"
+                  class="card-img-top"
+                  alt="Nidorino"
+                />
+                <div class="card-body bg-success rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#033</h5>
+                  <h4 class="card-text text-center text-light">Nidorino</h4>
+                  <p class="card-text text-center text-light">Tipo: Veneno</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke13.png"
+                  class="card-img-top"
+                  alt="Ninetales"
+                />
+                <div class="card-body bg-primary rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#038</h5>
+                  <h4 class="card-text text-center text-light">Ninetales</h4>
+                  <p class="card-text text-center text-light">Tipo: Fuego</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke14.png"
+                  class="card-img-top"
+                  alt="Parasect"
+                />
+                <div class="card-body bg-danger rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#047</h5>
+                  <h4 class="card-text text-center text-light">Parasect</h4>
+                  <p class="card-text text-center text-light">
+                    Tipo: Bicho / Planta
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke15.png"
+                  class="card-img-top"
+                  alt="Vileplume"
+                />
+                <div class="card-body bg-warning rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#045</h5>
+                  <h4 class="card-text text-center text-light">Vileplume</h4>
+                  <p class="card-text text-center text-light">
+                    Tipo: Planta / Veneno
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke16.png"
+                  class="card-img-top"
+                  alt="Golduck"
+                />
+                <div class="card-body bg-success rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#055</h5>
+                  <h4 class="card-text text-center text-light">Golduck</h4>
+                  <p class="card-text text-center text-light">Tipo: Agua</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke17.png"
+                  class="card-img-top"
+                  alt="Arcanine"
+                />
+                <div class="card-body bg-primary rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#059</h5>
+                  <h4 class="card-text text-center text-light">Arcanine</h4>
+                  <p class="card-text text-center text-light">Tipo: Fuego</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke18.png"
+                  class="card-img-top"
+                  alt="Primeape"
+                />
+                <div class="card-body bg-danger rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#057</h5>
+                  <h4 class="card-text text-center text-light">Primeape</h4>
+                  <p class="card-text text-center text-light">Tipo: Lucha</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke19.png"
+                  class="card-img-top"
+                  alt="Kadabra"
+                />
+                <div class="card-body bg-warning rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#064</h5>
+                  <h4 class="card-text text-center text-light">Kadabra</h4>
+                  <p class="card-text text-center text-light">Tipo: Psíquico</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img
+                  src="./img/poke20.png"
+                  class="card-img-top"
+                  alt="Poliwhirl"
+                />
+                <div class="card-body bg-success rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#061</h5>
+                  <h4 class="card-text text-center text-light">Poliwhirl</h4>
+                  <p class="card-text text-center text-light">Tipo: Agua</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3">
+            <div
+              class="card rounded-4 shadow-lg border border-dark tarjetas tarjetaP"
+            >
+              <a href="./pages/error404.html" class="text-decoration-none">
+                <img src="./img/poke21.png" class="card-img-top" alt="Gengar" />
+                <div class="card-body bg-primary rounded-bottom-4">
+                  <h5 class="card-text text-center text-light">#094</h5>
+                  <h4 class="card-text text-center text-light">Gengar</h4>
+                  <p class="card-text text-center text-light">
+                    Tipo: Fantasma / Veneno
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      <footer class="bg-dark text-center">
+       <p class="text-light py-4 mb-0">&copy; Todos los derechos reservados</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
