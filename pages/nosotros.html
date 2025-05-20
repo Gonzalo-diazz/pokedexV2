@@ -20,10 +20,11 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 px-3">
         <div class="container-fluid">
+          <h1 class="d-lg-none">Pokedex</h1>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -88,58 +89,139 @@
         </div>
       </nav>
     </header>
-    <main class="my-3">
-      <h1 class="text-center fs-2">Nosotros</h1>
-      <section class="container my-3 text-center px-3">
-        <p class="text-center lead">
-          ¡Soy un apasionado del desarrollo web y creé este sitio con dedicación
-          para ofrecer una experiencia digital clara y funcional!
-        </p>
-        <article class="my-3">
-          <h2 class="fs-2">Mi Historia</h2>
-          <p class="lead">
-            Comence en 2023 con un pequeño grupo de desarrolladores con la
-            misión de innovar en tecnología educativa.
-          </p>
-        </article>
+    <main class="my-2">
+      <section class="container">
+        <h1 class="text-center fs-2 mb-2">Nosotros</h1>
 
-        <article class="my-3">
-          <h2 class="fs-2">Nuestros Valores</h2>
-          <ul class="text-center list-unstyled lead">
-            <li>Compromiso con la calidad.</li>
-            <li>Trabajo en equipo.</li>
-            <li>Innovación constante.</li>
-            <li>Atención al cliente.</li>
-          </ul>
-        </article>
+        <div
+          class="row justify-content-center mb-5 bg-light p-4 rounded shadow-sm tarjetaP tarjetas"
+        >
+          <div class="col-12 col-md-10">
+            <p class="lead text-center">
+              ¡Somos un equipo apasionado por el desarrollo web, y creamos este
+              sitio con dedicación para ofrecer una experiencia digital clara,
+              funcional y centrada en el usuario!
+            </p>
+            <p class="text-center text-muted">
+              Nuestra meta es impulsar proyectos tecnológicos con un enfoque en
+              la calidad, la innovación y la accesibilidad.
+            </p>
+          </div>
+        </div>
 
-        <article class="my-3">
-          <h2 class="fs-2">Equipo</h2>
-          <div class="row justify-content-center">
+        <div class="row mb-5 g-4">
+          <div class="col-12 col-lg-6">
+            <div class="bg-light p-4 rounded shadow-sm h-100 tarjetaP tarjetas">
+              <h2 class="fs-4 text-center mb-3">Mi Historia</h2>
+              <p class="lead text-center">
+                Todo comenzó en 2023, cuando un pequeño grupo de desarrolladores
+                se unió con una visión compartida: transformar la educación y la
+                tecnología en herramientas accesibles para todos.
+              </p>
+              <p class="text-center text-muted">
+                Desde entonces, hemos trabajado en proyectos de desarrollo web,
+                aplicaciones y soluciones digitales personalizadas para
+                emprendedores y pequeñas empresas.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="bg-light p-4 rounded shadow-sm h-100 tarjetaP tarjetas">
+              <h2 class="fs-4 text-center mb-3">Nuestros Valores</h2>
+              <ul class="list-unstyled text-center lead">
+                <li>✔️ Compromiso con la calidad y los detalles</li>
+                <li>✔️ Trabajo en equipo colaborativo</li>
+                <li>✔️ Innovación y aprendizaje continuo</li>
+                <li>✔️ Comunicación clara y transparente</li>
+                <li>✔️ Escucha activa y atención al cliente</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="fs-3 text-center mb-4">Nuestro Equipo</h2>
+          <div class="row g-4 justify-content-center">
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card tarjetas tarjetaP">
+              <div
+                class="card h-100 rounded-3 shadow-sm border-0 tarjetas tarjetaP"
+              >
                 <img
                   src="/img/imgProgramador.jpg"
-                  class="card-img-top rounded-3"
-                  alt="img programador"
+                  class="card-img-top rounded-top"
+                  alt="Gonzalo Diaz"
                 />
-                <div class="card-body">
-                  <h4>Gonzalo Diaz</h4>
-                  <p class="card-text">Fundador y Desarrollador</p>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Gonzalo Diaz</h4>
+                  <p class="card-text">Desarrollador Full Stack</p>
+                  <p class="text-muted small m-0">
+                    Apasionado por el código limpio y la experiencia de usuario.
+                    Lenguajes: JavaScript, C#, HTML y CSS.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div
+                class="card h-100 rounded-3 shadow-sm border-0 tarjetaP tarjetas"
+              >
+                <img
+                  src="/img/playing-cards-780326_1280.jpg"
+                  class="card-img-top rounded-top"
+                  alt=""
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Sobre el Proyecto</h4>
+                  <p class="text-muted small">
+                    Este proyecto fue creado como parte de un trabajo grupal.
+                    Investigamos, diseñamos y desarrollamos la Pokédex desde
+                    cero para aplicar lo aprendido en clase.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div
+                class="card h-100 rounded-3 shadow-sm border-0 tarjetaP tarjetas"
+              >
+                <img
+                  src="/img/ai-generated-7988262_1280.jpg"
+                  class="card-img-top rounded-top"
+                  alt="img poke"
+                />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Inspiracion del proyecto</h4>
+                  <p class="text-muted small">
+                    Este sitio está inspirado en la Pokédex original de los
+                    videojuegos Pokémon. Nuestro objetivo fue recrear su esencia
+                    con tecnologías web modernas, combinando diseño,
+                    interactividad y nostalgia para los fans.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </article>
-        <article class="my-5 text-center">
-          <h2>Contacto</h2>
-          <p class="fs-4">
-            ¿Querés saber más?
-            <a href="error404.html" class="btn btn-primary">Escribinos</a>
-          </p>
-        </article>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-12 text-center bg-light p-4 rounded shadow-sm tarjetaP tarjetas mb-3"
+          >
+            <h2 class="fs-3 mb-3">Contacto</h2>
+            <p class="fs-5 text-muted mb-3">
+              ¿Querés saber más sobre nuestros proyectos o colaborar?
+            </p>
+            <a href="error404.html" class="btn btn-outline-primary btn-lg"
+              >Escribinos</a
+            >
+          </div>
+        </div>
       </section>
     </main>
+
     <footer class="bg-dark text-center">
       <p class="text-light py-4 mb-0">&copy; Todos los derechos reservados</p>
     </footer>
