@@ -27,6 +27,10 @@
 width: 65%;
 }
 
+.img-nosotros{
+   width: 100%;
+  object-fit: cover;
+}
 
 @media (width <= 767px) {
     .alineacion{
