@@ -23,8 +23,24 @@
   transition: transform 0.3s, box-shadow 0.2s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
+.img-grilla{
+width: 65%;
+}
+
+
 @media (width <= 767px) {
     .alineacion{
       font-size: 20px;
     }
+    .img-grilla{
+      width: 100%;
+    }
+}
+@media (767px >= width <= 991px) {
+   .img-grilla{
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+   }
+   
 }
